@@ -16,7 +16,12 @@ div {
   font-family: "Noto Sans";
 
   > h1 {
-    margin-bottom: 15px;
+    margin-bottom: 1.2vw;
+    font-size: 2vw;
+  }
+
+  > p {
+    font-size: 1vw;
   }
 }
 </style>

@@ -6,10 +6,10 @@ import {itemList as itemListFour, rewardPool as rewardPoolFour} from "@/data/ite
 import {setId, RouterMap} from "@/utils/other.js";
 
 let routerMapList = [
-    ["远古石灵", itemListOne, rewardPoolOne],
-    ["哥布林萨满", itemListTwo, rewardPoolTwo],
-    ["牛头人狂战士", itemListThree, rewardPoolThree],
-    ["须佐能乎命", itemListFour, rewardPoolFour]
+    ["石灵抽奖", itemListOne, rewardPoolOne],
+    ["萨满抽奖", itemListTwo, rewardPoolTwo],
+    ["牛牛抽奖", itemListThree, rewardPoolThree],
+    ["须佐抽奖", itemListFour, rewardPoolFour]
 ].map(item => new RouterMap(...item))
 
 routerMapList = setId(routerMapList)
