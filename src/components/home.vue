@@ -324,7 +324,7 @@ const mouseout = e => {
 
         &::before {
           content: "";
-          height: 100%;
+          height: 101%;
           opacity: 0.87;
           background: url("@/assets/images/background/header.png") no-repeat center center;
           background-size: 100% auto;
