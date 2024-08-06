@@ -324,9 +324,10 @@ const mouseout = e => {
 
         &::before {
           content: "";
-          height: 101%;
+          width: 101%
+          height: 100%;
           opacity: 0.87;
-          background: url("@/assets/images/background/header.png") no-repeat center center;
+          background: url("@/assets/images/background/header.png") no-repeat;
           background-size: 100% auto;
           display: block;
         }
